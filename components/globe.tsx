@@ -108,7 +108,6 @@ export default function TransactionGlobe({
       style: "style.json",
       center: [270, 40],
       zoom: 4,
-      projection: "globe",
     })
     mapRef.current = map
     map.on("load", () => {
